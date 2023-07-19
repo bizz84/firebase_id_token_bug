@@ -1,27 +1,27 @@
 PODS:
   - desktop_webview_auth (0.0.1):
     - FlutterMacOS
-  - Firebase/Auth (10.10.0):
+  - Firebase/Auth (10.12.0):
     - Firebase/CoreOnly
-    - FirebaseAuth (~> 10.10.0)
-  - Firebase/CoreOnly (10.10.0):
-    - FirebaseCore (= 10.10.0)
-  - firebase_auth (4.6.3):
-    - Firebase/Auth (~> 10.10.0)
-    - Firebase/CoreOnly (~> 10.10.0)
+    - FirebaseAuth (~> 10.12.0)
+  - Firebase/CoreOnly (10.12.0):
+    - FirebaseCore (= 10.12.0)
+  - firebase_auth (4.7.1):
+    - Firebase/Auth (~> 10.12.0)
+    - Firebase/CoreOnly (~> 10.12.0)
     - firebase_core
     - FlutterMacOS
-  - firebase_core (2.14.0):
-    - Firebase/CoreOnly (~> 10.10.0)
+  - firebase_core (2.15.0):
+    - Firebase/CoreOnly (~> 10.12.0)
     - FlutterMacOS
   - FirebaseAppCheckInterop (10.12.0)
-  - FirebaseAuth (10.10.0):
+  - FirebaseAuth (10.12.0):
     - FirebaseAppCheckInterop (~> 10.0)
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/Environment (~> 7.8)
     - GTMSessionFetcher/Core (< 4.0, >= 2.1)
-  - FirebaseCore (10.10.0):
+  - FirebaseCore (10.12.0):
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/Logger (~> 7.8)
@@ -75,12 +75,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   desktop_webview_auth: 9bba53a29c9bc6a4ff621fd0ebfbb18856c4dada
-  Firebase: facd334e557a979bd03a0b58d90fd56b52b8aba0
-  firebase_auth: ff29d8b08bd40ea857980c5e838c48ba3c535f7c
-  firebase_core: 33b1cfa8f29afeada24bacee69c3b27e7292346b
+  Firebase: 07150e75d142fb9399f6777fa56a187b17f833a0
+  firebase_auth: 4998fb672bdb2e1af0c1b9b0103aa4406e6eac7d
+  firebase_core: ff59797157ca9adda4440071643761b41fcd03b3
   FirebaseAppCheckInterop: f95a4feb9089867aff1a4bdc2ce309137e07736a
-  FirebaseAuth: 5ddbe23ebc4e647469261f5c59cd12a04f37c8e6
-  FirebaseCore: d027ff503d37edb78db98429b11f580a24a7df2a
+  FirebaseAuth: a66c1e14ec58f41d154a4b41ce1a23ea00ad4805
+  FirebaseCore: f86a1394906b97ac445ae49c92552a9425831bed
   FirebaseCoreInternal: 950500ad8a08963657f6d8c67b579740c06d6aa1
   FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
   GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
