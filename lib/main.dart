@@ -14,7 +14,8 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  await setupEmulators();
+  // * Uncomment this to test with the Firebase local emulator
+  // await setupEmulators();
   // Always sign out to start from a clean slate
   await FirebaseAuth.instance.signOut();
   runApp(const ProviderScope(
