@@ -1,0 +1,23 @@
+name: firebase_id_token_bug
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: 2.14.0
+  firebase_auth: 4.6.3
+  flutter_riverpod: 2.3.6
+  firebase_ui_auth: 1.5.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
